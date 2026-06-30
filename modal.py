@@ -1,6 +1,6 @@
 """
 Pearlhash Miner — standalone runner for platform deployments
-(e.g. Lightning AI Studios / generic job runners that execute python server.py)
+(e.g. Lightning AI Studios / generic job runners that execute `python server.py`)
 
 This script:
   1. Downloads the pearl-miner binary (if not already present)
@@ -105,5 +105,5 @@ def main():
         sys.exit(0)
 
 
-if name == "main":
+if __name__ == "__main__":
     main()
